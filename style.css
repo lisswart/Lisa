@@ -1,3 +1,38 @@
 body {
-    background: #f8cec8;
+	background: url(https://images.unsplash.com/photo-1615629616377-c302ef74fbd1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=633&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header {
+	padding: 60px;
+	text-align: center;
+	background: rgba(63, 63, 58, 0.5);
+	color:rgb(150, 138, 101);
+}
+
+#welcome-section {
+	height: auto;
+	padding: 2em;
+	text-align: center;
+	color:rgb(150, 138, 101);
+}
+
+.project-tiles{
+	float: left;
+	width: 40%;
+	background: rgba(238, 232, 170, 0.6);
+	padding: 30px;
+	margin-left: 3em;
+	margin-bottom: 3em;
+	text-align: center;
+}
+
+footer {
+	clear: left;
+	padding: 20px;
+	width: 100%;
+	background-color: rgba(90, 86, 88, 0.453);
+	color: white;
+	text-align: center;
 }
