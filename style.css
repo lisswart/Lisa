@@ -1,11 +1,16 @@
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	text-align: center;
 	background: url(https://images.unsplash.com/photo-1615629616377-c302ef74fbd1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=633&q=80);
-	background-size: cover;
+	background-repeat: repeat-x;
 }
 
 header {
-	padding: 60px;
+	padding: 40px;
 	text-align: center;
 	background: rgba(63, 63, 58, 0.5);
 	color:rgb(150, 138, 101);
@@ -18,14 +23,19 @@ header {
 	color:rgb(150, 138, 101);
 }
 
-.project-tiles{
-	float: left;
-	width: 40%;
-	background: rgba(238, 232, 170, 0.6);
-	padding: 30px;
-	margin-left: 3em;
-	margin-bottom: 3em;
+.container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	justify-content: space-evenly;
 	text-align: center;
+	flex-wrap: wrap;
+}
+
+.tiles {
+	padding: 1em;
+	min-width: 500px;
+	background-color: rgba(185, 184, 107, 0.377);
 }
 
 p {
@@ -36,32 +46,30 @@ p {
 a:link {
 	color: silver;
 	background-color: rgba(90, 86, 88, 0.453);
-	padding: 1em;
 }
 
 a:visited {
 	color:silver;
 	background-color: rgba(63, 55, 59, 0.986);
-	padding: 1em;
 }
 
 a:hover {
-	color: red;
-	background-color: black;
-	padding: 1em;
+	background-color: rgba(83, 6, 102, 0.473);
+	
 }
 
 a:active {
 	color:rgba(63, 63, 58);
 	background-color: rgba(90, 86, 88, 0.453);
-	padding: 1em;
 }
 
 footer {
-	clear: left;
 	padding: 20px;
-	width: 100%;
 	background-color: rgba(90, 86, 88, 0.453);
 	color: white;
 	text-align: center;
+}
+
+.dots {
+	min-height: 110px;
 }
