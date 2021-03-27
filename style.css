@@ -36,13 +36,20 @@ header {
 	padding: 1em;
 	margin-bottom: 1em;
 	min-width: 200px;
+	max-width: 200px;
 	background-color: rgba(185, 184, 107, 0.377);
+	display: flex;
 }
 
 .project-link {
 	background-color: rgba(255, 255, 224, 0.192);
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
+	padding: 0.5em;	
+	min-height: 100px;
+}
+
+.project-link div {
+	border:rgb(51, 25, 3) solid;
+	min-height: 10px;
 }
 
 a:link {
