@@ -6,7 +6,7 @@
 body {
 	text-align: center;
 	background: url(https://images.unsplash.com/photo-1615629616377-c302ef74fbd1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=633&q=80);
-	background-repeat: repeat-x;
+	background-repeat: repeat;
 }
 
 header {
@@ -35,7 +35,7 @@ header {
 .tiles {
 	padding: 1em;
 	margin-bottom: 1em;
-	min-width: 500px;
+	min-width: 200px;
 	background-color: rgba(185, 184, 107, 0.377);
 }
 
@@ -47,12 +47,10 @@ header {
 
 a:link {
 	color: goldenrod;
-	background-color: rgba(100, 148, 237, 0.149);
 }
 
 a:visited {
 	color: rgb(51, 25, 3);
-	background-color: rgba(83, 6, 102, 0.473);
 }
 
 a:hover {
@@ -62,13 +60,12 @@ a:hover {
 
 a:active {
 	color:rgba(63, 63, 58);
-	background-color: rgba(90, 86, 88, 0.453);
 }
 
 footer {
 	padding: 20px;
-	background-color: rgba(90, 86, 88, 0.453);
-	color: white;
+	background-color: rgba(63, 63, 58, 0.5);
+	color: rgb(150, 138, 101);
 	text-align: center;
 }
 
