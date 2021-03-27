@@ -34,27 +34,29 @@ header {
 
 .tiles {
 	padding: 1em;
+	margin-bottom: 1em;
 	min-width: 500px;
 	background-color: rgba(185, 184, 107, 0.377);
 }
 
-p {
-	padding: 1em;
-	margin-bottom: 2em;
+.project-link {
+	background-color: rgba(255, 255, 224, 0.192);
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 }
 
 a:link {
-	color: silver;
-	background-color: rgba(90, 86, 88, 0.453);
+	color: goldenrod;
+	background-color: rgba(100, 148, 237, 0.149);
 }
 
 a:visited {
-	color:silver;
-	background-color: rgba(63, 55, 59, 0.986);
+	color: rgb(51, 25, 3);
+	background-color: rgba(83, 6, 102, 0.473);
 }
 
 a:hover {
-	background-color: rgba(83, 6, 102, 0.473);
+	color: rgb(102, 52, 6);
 	
 }
 
