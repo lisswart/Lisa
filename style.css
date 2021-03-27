@@ -67,6 +67,10 @@ footer {
 	background-color: rgba(63, 63, 58, 0.5);
 	color: rgb(150, 138, 101);
 	text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 }
 
 .dots {
