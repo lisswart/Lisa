@@ -10,15 +10,18 @@ const recipes = [
 
 function createTileFromRecipe (recipe) {
     const tile = document.createElement('div');
-    // const innerTile = document.createElement('div');
+    const innerTile = document.createElement('div');
+    const innerBox = document.createElement('div');
 
     tile.className = 'tile';
-    // innerTile.className = 'innerTile';
+    innerTile.className = 'innerTile';
+    innerBox.className = 'innerBox';
+
     tile.innerHTML =
     `
-        <div>
+        <div class="${innerTile.className}">
             <h2>${recipe.name}</h2>
-            <div>
+            <div class="${innerBox.className}">
                 <p>INGREDIENTS: ${recipe.ingredientList}</p>
                 <p>INSTRUCTIONS: ${recipe.instructions}</p>
             </div>

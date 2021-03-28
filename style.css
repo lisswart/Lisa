@@ -41,15 +41,15 @@ header {
 	display: flex;
 }
 
-/* .tile {
+.innerTile {
 	background-color: rgba(255, 255, 224, 0.192);
 	padding: 0.5em;	
 	min-height: 100px;
 	display: flex;
 	flex-direction: column;
-} */
+}
 
-.project-link div {
+.innerBox {
 	border:rgb(51, 25, 3) solid;
 	min-height: 10px;
 }
