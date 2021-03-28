@@ -39,3 +39,38 @@ for(let i = 0; i < recipes.length; i++) {
     const tile = createTileFromRecipe(recipes[i]);
     tileContainer.appendChild(tile);
 }
+
+// function createButton() {
+//     const button1 = createElement('button');
+//     const button2 = createElement('button');
+//     const searchBox = createElement('input');
+//     button1.id = 'button1';
+//     button2.id = 'button2';
+//     searchBox.id = 'input';
+
+//     button1.innerText = `About Me`;
+//     button2.innerText = `search`;
+//     searchBox.innerText = `type recipe name here`;
+
+//     return button1, button2, searchBox;
+
+// }
+
+function alertUser() {
+    alert("You've clicked me!");
+}
+
+function hoverAlert() {
+    alert("You hovered above me!");
+}
+
+function alertInputBox() {
+    alert(searchBox.value);
+}
+
+const button1 = document.getElementById('submit');
+button1.addEventListener('click', alertUser);
+
+const searchBox = document.getElementById('searchBox');
+const button2 = document.getElementById('search');
+button2.addEventListener('click', alertInputBox);
