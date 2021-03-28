@@ -52,6 +52,7 @@ header {
 .innerBox {
 	border:rgb(51, 25, 3) solid;
 	min-height: 10px;
+	margin-top: 0.2em;
 }
 
 a:link {

@@ -1,10 +1,10 @@
 const recipes = [
-{name: "Pork Fry with Chili", ingredientList: "", instructions: ""},
-{name: "Red Beans and Pork", ingredientList: "", instructions: ""},
-{name: "Bird in a Thick Sauce", ingredientList: "", instructions: ""},
-{name: "Chili-Hot Chicken", ingredientList: "", instructions: ""},
-{name: "Roast Duck with Peanut Spice Paste", ingredientList: "", instructions: ""},
-{name: "Duck Curry in Nut Sauce", ingredientList: "", instructions: ""}
+{name: "Pork Fry with Chili", ingredientList: "", instructions: "", link: "./project1.html"},
+{name: "Red Beans and Pork", ingredientList: "", instructions: "", link: "./project2.html"},
+{name: "Bird in a Thick Sauce", ingredientList: "", instructions: "", link: "./project3.html"},
+{name: "Chili-Hot Chicken", ingredientList: "", instructions: "", link: "./project4.html"},
+{name: "Roast Duck with Peanut Spice Paste", ingredientList: "", instructions: "", link: "./project5.html"},
+{name: "Duck Curry in Nut Sauce", ingredientList: "", instructions: "", link: "./project6.html"}
 ];
 
 
@@ -19,13 +19,15 @@ function createTileFromRecipe (recipe) {
 
     tile.innerHTML =
     `
-        <div class="${innerTile.className}">
-            <h2>${recipe.name}</h2>
-            <div class="${innerBox.className}">
-                <p>INGREDIENTS: ${recipe.ingredientList}</p>
-                <p>INSTRUCTIONS: ${recipe.instructions}</p>
+        <a href="${recipe.link}>
+            <div class="${innerTile.className}">
+                <h2>${recipe.name}</h2>
+                <div class="${innerBox.className}">
+                    <p>INGREDIENTS: ${recipe.ingredientList}</p>
+                    <p>INSTRUCTIONS: ${recipe.instructions}</p>
+                </div>
             </div>
-        </div>
+        </a>
     `;
 
     return tile;
