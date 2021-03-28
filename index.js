@@ -19,7 +19,7 @@ function createTileFromRecipe (recipe) {
 
     tile.innerHTML =
     `
-        <a href="${recipe.link}>
+        <a href="${recipe.link}">
             <div class="${innerTile.className}">
                 <h2>${recipe.name}</h2>
                 <div class="${innerBox.className}">
