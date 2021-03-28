@@ -32,7 +32,7 @@ header {
 	flex-wrap: wrap;
 }
 
-.tiles {
+.tile {
 	padding: 1em;
 	margin-bottom: 1em;
 	min-width: 200px;
@@ -41,11 +41,13 @@ header {
 	display: flex;
 }
 
-.project-link {
+/* .tile {
 	background-color: rgba(255, 255, 224, 0.192);
 	padding: 0.5em;	
 	min-height: 100px;
-}
+	display: flex;
+	flex-direction: column;
+} */
 
 .project-link div {
 	border:rgb(51, 25, 3) solid;
